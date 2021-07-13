@@ -1,0 +1,21 @@
+{
+  "name": "practica-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write \"*.{js,css,scss}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nesnik/Practica-JS.git"
+  },
+  "keywords": [
+    "nix",
+    "js"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
