@@ -11,5 +11,4 @@ const ThirdVariable = 2
 alert(firstVariable, second_variable, ThirdVariable)
 console.log(firstVariable, second_variable, ThirdVariable)
 
-// Кардинальное отличия Alert от console.log тем, что 1-е просто выводит на экран, а во 2-м можно делать разного рода операции с переменными. 
-
+// Кардинальное отличия Alert от console.log тем, что 1-е просто выводит на экран, а во 2-м можно делать разного рода операции с переменными.
