@@ -9,9 +9,9 @@ const numbers =[1, 2, 3, 4]
 
 function multiElements(array){
   let x=1;
-  for (let i = 0; i < array.length; i++){
+  for (let i = 0; i < array.length; ++i){
     x *= array[i]
   }
-  console.log(x)
+  return x
 }
-multiElements(numbers)
+console.log(multiElements(numbers))
