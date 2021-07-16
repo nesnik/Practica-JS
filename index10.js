@@ -8,10 +8,9 @@
 //    example(['Алишер', 'Ольга', ]) => ['Алишер']
 
 
-const data = ['Алексей', 'Семён', 'Василиса', 'Дима', 'Максим', 'Ольга']
 
 function deletingNames(names) {
-  const unwantedNames = ['Алексей','Семён','Василиса','Максим']
+  const unwantedNames = ['Дима','Саша','Ольга','Никита']
 
   const newNames = []
   for (const name of names) {
@@ -23,4 +22,4 @@ function deletingNames(names) {
   }
   return newNames
 }
-console.log(deletingNames(data))
+console.log(deletingNames(['Алексей', 'Семён', 'Василиса', 'Дима', 'Максим', 'Ольга', ]))
