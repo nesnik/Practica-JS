@@ -11,19 +11,10 @@
 //    divisibleByThree('88') => false
 //    divisibleByThree('1') => false
 
-function multiElements(array){
-  let newArr = '' + array
-  let x=0;
-  for (let i = 0; i <newArr.length; ++i){
-    x += +newArr[i]
-  }
-  return x
-}
+function divisibleByThree(str) {
+  const sum = str.split('').reduce((prev, val) => Number(prev) + Number(val))
 
-
-function divisibleByThree(str){
-  let arrayOfStr = Number(str.split(' '))
-  if(multiElements(arrayOfStr) % 3 === 0){
+  if(Number.isInteger(sum / 3)){
     return true
   } else{
     return false
