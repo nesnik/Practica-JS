@@ -5,13 +5,12 @@
 // Пример кода:
 //    example([1, 2, 3, 4]) => 1 * 2 * 3 * 4 = 24
 
-const numbers =[1, 2, 3, 4]
-
 function multiElements(array){
   let x=1;
   for (let i = 0; i < array.length; ++i){
     x *= array[i]
   }
-  return x
+  const operation = array.join(' * ')
+  return `${operation} = ${x}`
 }
-console.log(multiElements(numbers))
+console.log(multiElements([1, 2, 3, 4]))
