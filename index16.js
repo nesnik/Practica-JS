@@ -7,7 +7,7 @@
 //    example('Над городом облака, коридоры, берега, проспект, река.', 7) => ['коридоры', 'проспект']
 
 function strNum(str, num){
-  return arrayOfStr = str.split(' ').filter(number => number.length > num)
+  return str.split(' ').filter(number => number.length > num)
 }
 
 console.log(strNum('Сегодня отличный день. С самого утра мы пойдем на озеро, купаться.', 5))
