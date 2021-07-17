@@ -18,7 +18,7 @@
 //    finalGrade(55, 0) => 0
 //    finalGrade(20, 2) => 0
 
-function calculationGrade(exam, projects){
+function finalGrade(exam, projects){
   if(exam>90 || projects>10){
     return  100
   }
@@ -33,20 +33,8 @@ function calculationGrade(exam, projects){
   }
 }
 
-const data =[
-  {exam: 100, projects: 12 },
-  {exam: 99, projects: 0 },
-  {exam: 10, projects: 15},
-  {exam: 85, projects: 5 },
-  {exam: 55, projects: 3 },
-  {exam: 55, projects: 0 },
-  {exam: 20, projects: 2 },
-]
+console.log(finalGrade(100, 12))
+console.log(finalGrade(55, 3))
+console.log(finalGrade(20, 2))
 
-for (let {exam, projects} of data) {
-  console.table({
-    exam,
-    projects,
-    grade: calculationGrade(exam, projects),
-  })
-}
+
