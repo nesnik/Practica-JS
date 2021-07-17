@@ -7,7 +7,7 @@
 
 function evensAndOdds(number){
   if(number%2 === 0){
-    return String((number >>> 0).toString(2));
+    return (number >>> 0).toString(2);
   } else{
     return (number >>> 0).toString(16);
   }
